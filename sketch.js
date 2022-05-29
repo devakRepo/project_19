@@ -176,7 +176,7 @@ function createCar(){
 }
 
 function createpwr(){
-  if (World.frameCount % 100 == 0) {
+  if (World.frameCount % 500 == 0) {
   var spd = createSprite(Math.round(random(50, 350),40, 10, 10));
   spd.addImage(spdImg);
   spd.scale=0.35;
